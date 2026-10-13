@@ -1,0 +1,14 @@
+name: PlistDemo
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  PlistDemo:
+    type: application
+    platform: iOS
+    sources: [PlistDemo]
+    settings:
+      INFOPLIST_FILE: PlistDemo/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.plistdemo
+      GENERATE_INFOPLIST_FILE: YES

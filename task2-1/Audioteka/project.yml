@@ -1,0 +1,23 @@
+name: Audioteka
+options:
+  bundleIdPrefix: com.tpmp.lab8
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: ru
+targets:
+  Audioteka:
+    type: application
+    platform: iOS
+    sources:
+      - path: Audioteka
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.audioteka
+      INFOPLIST_FILE: Audioteka/Info.plist
+      SWIFT_VERSION: "5.0"
+      LOCALIZATION_PREFERS_STRING_CATALOGS: NO
+    info:
+      path: Audioteka/Info.plist
+      properties:
+        CFBundleDisplayName: Аудиотека

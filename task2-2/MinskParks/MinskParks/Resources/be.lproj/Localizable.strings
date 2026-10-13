@@ -1,0 +1,15 @@
+"map_title" = "Паркі Мінска";
+"map_hint" = "Доўгае націсканне на карту або выбар меткі — выбар раёна";
+"district_pin_subtitle" = "Адміністратыўны раён";
+"district_not_found" = "Раён не знойдзены. Абярыце кропку бліжэй да Мінска.";
+"district_selected_format" = "Раён: %@";
+"button_parks_list" = "Спіс паркаў";
+"button_weather" = "Надвор'е";
+"weather_title" = "Прагноз надвор'я";
+"weather_format" = "%@\nТэмпература: %d°C\nУмовы: %@\nВецер: %.1f м/с";
+"weather_missing_key" = "Укажыце ключ OpenWeatherMap у Info.plist (OpenWeatherAPIKey).";
+"weather_invalid_response" = "Не ўдалося атрымаць прагноз.";
+"weather_unknown_condition" = "невядома";
+"location_denied" = "Дазвольце доступ да геалакацыі ў наладах.";
+"alert_error" = "Памылка";
+"alert_ok" = "OK";

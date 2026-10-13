@@ -1,0 +1,19 @@
+name: FlightBooking
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  FlightBooking:
+    type: application
+    platform: iOS
+    sources:
+      - path: FlightBooking
+    settings:
+      INFOPLIST_FILE: FlightBooking/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.flightbooking
+      GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - sdk: MapKit.framework
+      - sdk: CoreLocation.framework
+      - sdk: CoreData.framework

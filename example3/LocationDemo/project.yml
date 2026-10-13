@@ -1,0 +1,16 @@
+name: LocationDemo
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  LocationDemo:
+    type: application
+    platform: iOS
+    sources: [LocationDemo]
+    settings:
+      INFOPLIST_FILE: LocationDemo/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.locationdemo
+      GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - sdk: CoreLocation.framework

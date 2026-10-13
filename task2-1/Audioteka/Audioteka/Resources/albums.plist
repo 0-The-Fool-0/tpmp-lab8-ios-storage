@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>title</key>
+		<string>Годен без причины</string>
+		<key>artist</key>
+		<string>NRM</string>
+		<key>year</key>
+		<integer>2007</integer>
+		<key>coverImage</key>
+		<string>album_nrm</string>
+		<key>description</key>
+		<string>Культовый белорусский рэп-альбом. Энергичные биты и социальные тексты о жизни в Минске начала 2000-х.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>title</key>
+		<string>Небо славян</string>
+		<key>artist</key>
+		<string>Ляпис Трубецкой</string>
+		<key>year</key>
+		<integer>2003</integer>
+		<key>coverImage</key>
+		<string>album_lyapis</string>
+		<key>description</key>
+		<string>Сборник хитов группы: «Воины света», «Капитал», «Африка». Смесь панк-рока и фолка с узнаваемым вокалом Сергея Михалка.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>title</key>
+		<string>Метро</string>
+		<key>artist</key>
+		<string>Би-2</string>
+		<key>year</key>
+		<integer>2002</integer>
+		<key>coverImage</key>
+		<string>album_bi2</string>
+		<key>description</key>
+		<string>Альбом с одноимённым хитом. Мелодичный рок с лирическими текстами Егора Бортника и Александра Уманского.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>title</key>
+		<string>Песни о любви</string>
+		<key>artist</key>
+		<string>Макс Корж</string>
+		<key>year</key>
+		<integer>2013</integer>
+		<key>coverImage</key>
+		<string>album_korzh</string>
+		<key>description</key>
+		<string>Популярный релиз с треками «Малиновый закат» и «Где я без тебя». Урбанистический саунд и исповедальные тексты.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>title</key>
+		<string>Три пути</string>
+		<key>artist</key>
+		<string>Дай Дарогу!</string>
+		<key>year</key>
+		<integer>2010</integer>
+		<key>coverImage</key>
+		<string>album_daidarogu</string>
+		<key>description</key>
+		<string>Фолк-панк с аккордеоном и скрипкой. Песни о дороге, свободе и белорусской идентичности.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>6</string>
+		<key>title</key>
+		<string>Космос</string>
+		<key>artist</key>
+		<string>Ансамбль «Песняры»</string>
+		<key>year</key>
+		<integer>1979</integer>
+		<key>coverImage</key>
+		<string>album_pesnyary</string>
+		<key>description</key>
+		<string>Классика белорусской эстрады. Вокальные гармонии и народные мотивы в аранжировках Владимира Мулявина.</string>
+	</dict>
+</array>
+</plist>

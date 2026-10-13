@@ -1,0 +1,14 @@
+name: StudentsCoreData
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  StudentsCoreData:
+    type: application
+    platform: iOS
+    sources: [StudentsCoreData]
+    settings:
+      INFOPLIST_FILE: StudentsCoreData/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.students
+      GENERATE_INFOPLIST_FILE: YES

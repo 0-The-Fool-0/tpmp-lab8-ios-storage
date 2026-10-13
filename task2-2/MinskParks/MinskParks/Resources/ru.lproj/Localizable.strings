@@ -1,0 +1,15 @@
+"map_title" = "Парки Минска";
+"map_hint" = "Долгое нажатие на карту или выбор метки — выбор района";
+"district_pin_subtitle" = "Административный район";
+"district_not_found" = "Район не найден. Выберите точку ближе к Минску.";
+"district_selected_format" = "Район: %@";
+"button_parks_list" = "Список парков";
+"button_weather" = "Погода";
+"weather_title" = "Прогноз погоды";
+"weather_format" = "%@\nТемпература: %d°C\nУсловия: %@\nВетер: %.1f м/с";
+"weather_missing_key" = "Укажите ключ OpenWeatherMap в Info.plist (OpenWeatherAPIKey).";
+"weather_invalid_response" = "Не удалось получить прогноз.";
+"weather_unknown_condition" = "неизвестно";
+"location_denied" = "Разрешите доступ к геолокации в настройках.";
+"alert_error" = "Ошибка";
+"alert_ok" = "OK";

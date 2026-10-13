@@ -1,0 +1,43 @@
+name: MinskParks
+options:
+  bundleIdPrefix: com.tpmp.lab8
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: ru
+  knownRegions:
+    - ru
+    - en
+    - be
+  createIntermediateGroups: true
+targets:
+  MinskParks:
+    type: application
+    platform: iOS
+    sources:
+      - path: MinskParks
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.minskparks
+        INFOPLIST_FILE: MinskParks/Info.plist
+        SWIFT_VERSION: "5.0"
+        LOCALIZATION_PREFERS_STRING_CATALOGS: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        TARGETED_DEVICE_FAMILY: 1
+    info:
+      path: MinskParks/Info.plist
+      properties:
+        CFBundleDisplayName: Парки Минска
+    dependencies:
+      - sdk: MapKit.framework
+      - sdk: CoreLocation.framework
+      - sdk: CoreData.framework
+schemes:
+  MinskParks:
+    build:
+      targets:
+        MinskParks: all
+    run:
+      config: Debug

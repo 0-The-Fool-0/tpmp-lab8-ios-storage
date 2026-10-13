@@ -1,0 +1,14 @@
+name: WeatherForecast
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  WeatherForecast:
+    type: application
+    platform: iOS
+    sources: [WeatherForecast]
+    settings:
+      INFOPLIST_FILE: WeatherForecast/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.weather
+      GENERATE_INFOPLIST_FILE: YES

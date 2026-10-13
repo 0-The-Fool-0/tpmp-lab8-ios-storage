@@ -1,0 +1,17 @@
+name: MapDemo
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  MapDemo:
+    type: application
+    platform: iOS
+    sources: [MapDemo]
+    settings:
+      INFOPLIST_FILE: MapDemo/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.mapdemo
+      GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - sdk: MapKit.framework
+      - sdk: CoreLocation.framework

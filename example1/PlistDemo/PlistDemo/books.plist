@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Мастер и Маргарита</string>
+		<key>author</key>
+		<string>М. Булгаков</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Каладзей з Беларусі</string>
+		<key>author</key>
+		<string>В. Короткевич</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>1984</string>
+		<key>author</key>
+		<string>Дж. Оруэлл</string>
+	</dict>
+</array>
+</plist>

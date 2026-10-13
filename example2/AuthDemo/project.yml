@@ -1,0 +1,14 @@
+name: AuthDemo
+options:
+  bundleIdPrefix: com.tpmp.lab8.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  AuthDemo:
+    type: application
+    platform: iOS
+    sources: [AuthDemo]
+    settings:
+      INFOPLIST_FILE: AuthDemo/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.tpmp.lab8.example.authdemo
+      GENERATE_INFOPLIST_FILE: YES

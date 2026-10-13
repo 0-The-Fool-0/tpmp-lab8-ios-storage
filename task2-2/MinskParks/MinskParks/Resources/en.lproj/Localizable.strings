@@ -1,0 +1,15 @@
+"map_title" = "Minsk Parks";
+"map_hint" = "Long-press the map or select a pin to choose a district";
+"district_pin_subtitle" = "City district";
+"district_not_found" = "District not found. Pick a point closer to Minsk.";
+"district_selected_format" = "District: %@";
+"button_parks_list" = "Parks list";
+"button_weather" = "Weather";
+"weather_title" = "Weather forecast";
+"weather_format" = "%@\nTemperature: %d°C\nConditions: %@\nWind: %.1f m/s";
+"weather_missing_key" = "Set OpenWeatherMap API key in Info.plist (OpenWeatherAPIKey).";
+"weather_invalid_response" = "Could not load forecast.";
+"weather_unknown_condition" = "unknown";
+"location_denied" = "Allow location access in Settings.";
+"alert_error" = "Error";
+"alert_ok" = "OK";
