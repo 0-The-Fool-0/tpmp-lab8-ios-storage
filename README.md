@@ -15,6 +15,6 @@ Use Xcode on macOS. The `example1`–`example7` and `task2-1` folders provide Xc
 
 ## Snapshot and attribution
 
-This is a clean snapshot from the local working copy; it does not include private repository history. The local Git history records Lab 8 setup and documentation commits but does not identify authorship of the currently uncommitted application files. Individual contribution therefore needs manual clarification. Local archive files, upload helper scripts, report drafts and simulator screenshots were excluded; the working source folders were retained.
+This is a clean snapshot from the local working copy; it does not include private repository history. The private branch history attributes commits for examples 1.1–1.7 and tasks 2.1–2.2 to Andrey Borisovets. This standalone snapshot combines those exercises without copying private history. Local archive files, upload helper scripts, report drafts and simulator screenshots were excluded; the working source folders were retained.
 
 This is coursework, not a production app. Authentication examples are demonstrations only.
